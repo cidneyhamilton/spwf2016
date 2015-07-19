@@ -1,0 +1,69 @@
+/*
+Theme Name: Steampunk World's Fair 2016
+Template: jme-event-base-theme
+
+Author: Cidney Hamilton
+Author URI: http://cidneyhamilton.com
+
+Description: 2016 event theme for Steampunk World's Fair. Child of JME-Event-Base-Theme.
+
+Version: 1.0
+
+*/
+
+#branding img {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#page {
+  margin-top: 0;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+/* Main menu background */
+.main-menu {
+  background: #715d8e;
+  background: linear-gradient(#aa98bb, #715d8e) repeat scroll 0% 0% transparent;
+  margin-bottom: 0;
+}
+
+.hentry,
+.hentry:last-child,
+.singular .hentry {
+  background-color: #ecdbfc;
+  box-shadow: 0 0 1px 1px #aaa;
+  border-radius: 4px;
+}
+
+
+#colophon {
+  background-color: #4f415d;
+}
+
+footer .widget a,
+footer #copyright a {
+  color: #6abdc4;
+  font-weight: normal;
+}
+
+footer .widget-title {
+  border-bottom: 1px solid #c7e0d3;
+  color: #c7e0d3;
+}
+
+#copyright {
+  color: #c7e0d3;
+}
+
+.ribbon-wrapper {
+  display: none;
+}
+
+.entry-header,
+.page-header {
+  background: #715d8e;
+  background: linear-gradient(#aa98bb, #715d8e) repeat scroll 0% 0% transparent;
+  text-shadow: 1px 1px 2px #aa98bb;
+}
