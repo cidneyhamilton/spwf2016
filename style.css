@@ -22,6 +22,10 @@ Version: 1.0
   box-shadow: none;
 }
 
+#main {
+  background: rgba(255,255,255, 0.8);
+}
+
 /* Main menu background */
 .main-menu {
   background: #715d8e;
@@ -37,6 +41,9 @@ Version: 1.0
   border-radius: 4px;
 }
 
+.entry-title a:hover {
+  color: #004668;
+}
 
 #colophon {
   background-color: #4f415d;
@@ -66,4 +73,17 @@ footer .widget-title {
   background: #715d8e;
   background: linear-gradient(#aa98bb, #715d8e) repeat scroll 0% 0% transparent;
   text-shadow: 1px 1px 2px #aa98bb;
+}
+
+.btn {
+  border-radius: 0px;
+  background: #006697;
+  border: 2px solid #00cdf2;
+  box-shadow: 2px 2px 2px #333;
+}
+
+.btn:hover {
+  background: #00cdf2;
+  border: 2px solid #006697;
+  color: #006697;
 }
