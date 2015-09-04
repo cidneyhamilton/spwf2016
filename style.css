@@ -75,6 +75,12 @@ footer .widget-title {
   text-shadow: 1px 1px 2px #aa98bb;
 }
 
+.entry-header a:link,
+.entry-header a:visited,
+.entry-header a:active {
+  color: #004668;
+}
+
 .btn {
   border-radius: 0px;
   background: #006697;
