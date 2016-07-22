@@ -15,3 +15,6 @@
   <li><a href="http://<?php echo $tumblr; ?>.tumblr.com/" class="tumblr" rel="me" target="_blank">Tumblr</a></li>
 <?php endif; ?>
 </ul>
+
+this is overriding the base theme _partials/social.php which means that the peformer and vendor provided website 
+and social media links are not displaying. Should this be renamed to website-social.php as on the WF child theme? 
